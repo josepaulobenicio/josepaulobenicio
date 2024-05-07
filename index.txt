@@ -1,0 +1,89 @@
+echo "<html><body>" > output.html
+cat input.txt >> output.html
+echo "</body></html>" >> output.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>José Paulo Benício - HR Generalist</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f4f4f4;
+    }
+    header, footer {
+        background-color: #007BFF;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+        color: #007BFF;
+    }
+    .social-media a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    .social-media img {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>José Paulo Benício</h1>
+    <p>HR Generalist | EU Citizen</p>
+</header>
+<section>
+    <h2>About Me</h2>
+    <p>I am a seasoned HR professional with over 5 years of experience in human resources payroll and people service, currently based in Cork, Ireland. I am passionate about learning new skills, enhancing organizational effectiveness, and delivering excellent customer service.</p>
+</section>
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li>BA (Hons) Degree in Business Management, Griffith College Cork, Ireland, 2021</li>
+        <li>Honours Bachelor's Degree in Business Administration, UNIFIEO, Brazil, 2013</li>
+    </ul>
+</section>
+<section>
+    <h2>Career Background</h2>
+    <h3>Salesforce - Sr. HR People Advisor EMEA</h3>
+    <p>Supporting the EMEA Team by managing all aspects of the employee lifecycle. Successful projects include the deployment of a new version of Workday and macro process improvements.</p>
+    <h3>Cielo - Senior Human Resources Generalist</h3>
+    <p>Managed a variety of HR strategies and led projects for Cielo University, significantly improving company processes and training programs.</p>
+</section>
+<section>
+    <h2>Skills</h2>
+    <p>Languages: Portuguese (Native), English (Advanced)<br>
+       IT Skills: Microsoft Office, Google Workspace, HR Systems (Workday, Tableau, SAS, Power BI), Ticket Management Systems.<br>
+       Soft Skills: Empathetic leadership, active listening, collaborative spirit, excellent communication and organizational skills.</p>
+</section>
+<section>
+    <h2>Contact Me</h2>
+    <p>Email: josepaulobenicio@gmail.com<br>
+       Phone: +353 83 4083017</p>
+</section>
+<section class="social-media">
+    <h2>Connect with Me</h2>
+    <a href="https://www.linkedin.com/in/jose-paulo-benicio-rh"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+</section>
+<footer>
+    <p>© 2024 José Paulo Benício. All rights reserved.</p>
+</footer>
+</body>
+</html>
